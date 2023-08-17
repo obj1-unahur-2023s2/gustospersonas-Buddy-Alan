@@ -1,6 +1,28 @@
-/** First Wollok example */
-object wollok {
-	method howAreYou() {
-		return 'I am Wolloktastic!'
+object rojo {
+	
+	method esFuerte() {
+		return true
 	}
 }
+
+object verde {
+	
+	method esFuerte() {
+		return true
+	}
+}
+
+object celeste {
+	
+	method esFuerte() {
+		return false
+	}
+}
+
+object pardo {
+	
+	method esFuerte() {
+		return false
+	}
+}
+

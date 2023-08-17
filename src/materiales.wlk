@@ -1,6 +1,18 @@
-/** First Wollok example */
-object wollok {
-	method howAreYou() {
-		return 'I am Wolloktastic!'
-	}
+object vidrio {
+	method esBrillante () = true
+}
+
+object cobre {
+	method esBrillante () = true
+}
+
+object lino {
+	method esBrillante () = false
+}
+object madera {
+	method esBrillante () = false
+}
+
+object cuero {
+	method esBrillante () = false
 }
