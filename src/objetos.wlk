@@ -4,13 +4,13 @@ import colores.*
 
 object 	remera {
 	const peso = 800
-	const color = rojo.esFuerte()
+	const color = rojo
 	method color() {
 		return color
 	}
-	method tipo()
+	method material()
 	{
-		return lino.esBrillante()
+		return lino
 	}
 	method asignarColor(colorAAsignar)
 		{
@@ -29,13 +29,13 @@ object 	remera {
 
 object 	pelota {
 	const peso = 1300
-	const color = pardo.esFuerte()
-	method color() {
+	const color = pardo
+		method color() {
 		return color
 	}
-	method tipo()
+	method material()
 	{
-		return cuero.esBrillante()
+		return cuero
 	}
 	
 	method seleccionarColor(colorNuevo){
@@ -49,13 +49,13 @@ object 	pelota {
 
 object 	biblioteca {
 	const peso = 8000
-	const color = verde.esFuerte()
+	const color = verde
 	method color() {
 		return color
 	}
-	method tipo()
+	method material()
 	{
-		return madera.esBrillante()
+		return madera
 	}
 	method peso () = peso
 	
@@ -70,13 +70,13 @@ object 	biblioteca {
 }
 object 	munieco {
 	var peso = 0
-	const color = verde.esFuerte()
+	const color = verde
 	method color() {
 		return color
 	}
-	method tipo()
+	method material()
 	{
-		return cuero.esBrillante()
+		return cuero
 	}
 	
 	method asignarPeso(nuevoPesoDelObjeto){
@@ -94,13 +94,14 @@ object 	munieco {
 
 object 	placa {
 	var peso = 0
-	var color = true
+	var color = pardo
+	
 	method color() {
-		return pardo.esFuerte()
+		return color
 	}
-	method tipo()
+	method material()
 	{
-		return cuero.esBrillante()
+		return cobre
 	}
 	
 	method asignarPeso(nuevoPesoDelObjeto){
@@ -108,9 +109,8 @@ object 	placa {
 	}
 	
 	method seleccionarColor(colorDelObjeto){
-		color = colorDelObjeto.esBrillante()
-	}
-	
+		color = colorDelObjeto	
+		}	
 	method peso () = peso
 }
 
