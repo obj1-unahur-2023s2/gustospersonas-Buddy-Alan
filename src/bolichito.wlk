@@ -20,5 +20,9 @@ object bolichito {
 		{
 			objMostrador = newObj
 		}
+	method esBrillante()
+		{
+			return 
+		}
 	
 }
